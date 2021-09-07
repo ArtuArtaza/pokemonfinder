@@ -1,6 +1,6 @@
-import fetchPokemon from "./fetchPokemon.js"
-import {State} from "./setState.js"
-import filterAndFetch from "./filterAndFetch.js"
+import fetchPokemon from "/fetchPokemon.js"
+import {State} from "/setState.js"
+import filterAndFetch from "/filterAndFetch.js"
 
 
 let url = 'https://pokeapi.co/api/v2/pokemon?limit=1118'
