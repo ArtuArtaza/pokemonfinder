@@ -1,5 +1,5 @@
-import setState,{State} from "./setState.js"
-import renderPokemon from "./renderPokemon.js"
+import setState,{State} from "setState.js"
+import renderPokemon from "renderPokemon.js"
 
 const filterAndFetch = async (input) => {
     const pokemonSelected = State.pokemonList.filter( element => element.name.includes(input.toLowerCase()))
