@@ -1,4 +1,4 @@
-import setState,{State} from "./setState.js"
+import setState,{State} from "setState.js"
 
 const fetchPokemon = (url) => {
     const loadText = document.getElementById('load')
